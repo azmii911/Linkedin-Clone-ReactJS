@@ -1,0 +1,57 @@
+.widgets {
+    flex: 0.2;
+    position: sticky;
+    top: 10px;
+    /* margin: 0 10px; */
+    height: fit-content;
+}
+
+.widget__box {
+    cursor: pointer;
+    text-align: left;
+    padding: 10px;
+    border: 1px solid lightgray;
+    background-color: white;
+    border-radius: 10px;
+    /* margin-top: 10px; */
+}
+
+.widget__box>h4 {
+    font-size: 16px;
+    font-weight: 600 !important;
+    margin-bottom: 15px;
+}
+
+.widget__area>.widget__infoIcon {
+    color: blue !important;
+    padding: 2px;
+}
+
+.widget__area {
+    display: flex;
+    background-color: #f2f2ff;
+    margin-bottom: 10px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.widget__area:hover {
+    background-color: #e9e9f7;
+}
+
+.widget__info {
+    display: flex;
+    flex-direction: column;
+}
+
+.widget__info>h4 {
+    /* color: gray; */
+    /* font-size: 16px; */
+    font-weight: bold;
+}
+
+.widget__countNumber {
+    color: gray;
+    font-size: 14px;
+    margin: 5px 0;
+}
